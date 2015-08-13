@@ -14,13 +14,13 @@ Failures:
        undefined method `reverse_each_word' for #<RSpec::ExampleGroups::ReverseEachWord:0x007f9af92d68b0>
 ```
 
-First, we need to define our `reverse_each_word` method and that method should take in an argument. Here in our case that argument will be an sentence.
+First, we need to define our `reverse_each_word` method and that method should take in an argument. In this case that argument will be an sentence.
 
 ```ruby
 def reverse_each_word(sentence)
 end
 ```
-Now we need to use the `.split` method to split our sentence at the spaces. The `.split` method returns an array and we can just use the `.collect` method to iterate over our array and return a new array. And then we will use the `.join(" ")` to turn the array into a string where every word is separated by spaces.
+Now we need to use the `.split` method to split our sentence at the spaces. The `.split` method returns an array and we can just use the `.collect` method to iterate over that array and return a new array. Then, we will use `.join(" ")` to turn the array into a string where every word is separated by spaces.
 
 
 ```ruby

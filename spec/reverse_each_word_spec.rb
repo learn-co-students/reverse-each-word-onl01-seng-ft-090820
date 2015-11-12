@@ -10,6 +10,6 @@ end
 describe '#reverse_each_word' do
   let(:sentence2) { "Hi again, just making sure it's reversed!" }
   it 'reverses all the words in a string without reversing the order of the words' do
-    expect(reverse_each_word(sentence2)).to eq("iH niaga, tsuj gnikam erus s'ti !desrever")
+    expect(reverse_each_word(sentence2)).to eq("iH ,niaga tsuj gnikam erus s'ti !desrever")
   end
 end

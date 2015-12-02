@@ -25,3 +25,5 @@ reverse_each_word("Hello there, and how are you?")
 **Hint:** *You can't use an enumerator on a string, so how can we turn our string into an array?*
 
 **Hint:** *How can we reverse each word and return those altered words? Remember that* `.each` *returns the original array but other enumerators don't.*
+
+<a href='https://learn.co/lessons/reverse-each-word' data-visibility='hidden'>View this lesson on Learn.co</a>
